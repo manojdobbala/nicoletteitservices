@@ -67,7 +67,7 @@ body{
 }
 #mainNav{
   border-bottom:1px solid rgba(33,37,41,.1);
-  background-color:#fff;
+  background-color:black;
   font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
   -webkit-transition:all .2s;
   -moz-transition:all .2s;
@@ -93,15 +93,15 @@ body{
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active{
   color:#f05f40!important;
-  background-color:transparent
+  background-color:black
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover{
-  background-color:transparent
+  background-color:black
 }
 @media (min-width:992px){
   #mainNav{
-    border-color:transparent;
-    background-color:transparent
+    border-color:black;
+    background-color:black
   }
   #mainNav .navbar-brand{
     color:rgba(255,255,255,.7)
@@ -138,7 +138,7 @@ body{
 header.masthead{
   padding-top:10rem;
   padding-bottom:calc(10rem - 56px);
-  background-image:url(../src/img/header.jpg);
+  background-image:url(../src/img/swadeshi_images_3.jpg);
   background-position:center center;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -255,4 +255,10 @@ header.masthead p{
 }
 .btn-primary:active,.btn-primary:focus{
   box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important
+}
+
+.bg-black-opacity{
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 5px;
+  padding: 0 10px;
 }
